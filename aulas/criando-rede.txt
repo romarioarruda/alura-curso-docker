@@ -1,0 +1,11 @@
+Comando:
+
+docker network create  --driver bridge minha-rede
+
+Listar redes:
+
+docker network ls
+
+Criando container numa rede especifica:
+
+docker container run -it --name container-ubuntu --network minha-rede ubuntu

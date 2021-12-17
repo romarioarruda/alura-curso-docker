@@ -1,0 +1,14 @@
+Comando:
+
+docker build -f nomeDoDockerfile -t romario/node .
+
+-f => indentifica o nomeDoDockerfile
+-t => cria uma tag para a imagem
+. => é o caminho do Dockerfile
+
+
+Subindo imagem para o docker hub:
+
+docker login
+
+docker push nomeDaImagem

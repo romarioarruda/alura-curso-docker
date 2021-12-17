@@ -1,0 +1,11 @@
+Comando:
+
+docker container run --rm -d -p 3000:3000 --name meu-app -v "$(pwd):/path-do-container" -w "/path-do-container" node npm start
+
+$(pwd) => pega o caminho atual de forma dinâmica
+--rm => remove o container quando ele for parado
+--name => dar um nome ao container
+-d => rodar em segundo plano
+-p => mapear portas
+-v => mapear volumes
+-w => indentifica diretório usado no container

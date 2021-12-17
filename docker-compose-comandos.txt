@@ -1,0 +1,16 @@
+Buildando as imagens:
+
+docker-compose build
+
+Subindo os containers:
+
+docker-compose up -d
+
+Parando os containers:
+
+docker-compose down
+
+Listando os containers:
+
+docker-compose ps
+
